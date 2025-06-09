@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    color: rgb(96, 92, 92);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 600;
+    line-height: 1.5;
+
+}
+
+header {
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+    box-shadow: hsl(0, 2%, 90%) 0px 5px 30px;
+}
+
+.his {
+    font-size: 40px;
+}
+
+#ios {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: hsl(171, 66%, 44%) 0px 5px 30px;
+}
+
+#ios:active {
+    background-color: hsl(171, 75%, 74%);
+}
+
+#mac {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: hsl(233, 100%, 69%) 0px 5px 30px;
+}
+
+#mac:active {
+    background-color: rgb(144, 157, 253);
+}
+
+.history {
+    padding: 3em 26em;
+}
+
+.track {
+    padding: 3em 27em;
+}
+
+.parent1 {
+    display: flex;
+}
+
+.child2 {
+    padding: 2em 5em;
+    text-align: start;
+    line-height: 2em;
+}
+
+.child3 {
+    padding: 3em 27em;
+}
+
+.parent3 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    padding: 2em 10em;
+}
+
+.parent4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em 10em;
+}
+
+.parent5 {
+    padding: 2em 26em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+footer {
+    margin-top: 7em;
+    line-height: 40px;
+    background: hsl(200, 12%, 75%);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 320px) {
+    * {
+        padding: 0PX 3PX;
+    }
+
+    body {
+        text-align: left;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 400;
+        line-height: 1.5;
+    }
+
+    header {
+        background-image: url(./images/bg-header-mobile.png);
+    }
+
+    .history {
+        padding: 0em;
+        text-align: center;
+    }
+
+    .his {
+        font-size: 35px;
+    }
+
+    .track {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .parent1 {
+        display: block;
+        margin: 3em 0em;
+    }
+
+    .child2 {
+        width: 100%;
+        text-align: center;
+        padding: 2em 0em;
+        line-height: 0m;
+    }
+
+    .computer {
+        width: 100%;
+    }
+
+    .child3 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .devices {
+        width: 100%;
+    }
+
+    .super {
+        text-align: center;
+    }
+
+    .parent3 {
+        display: block;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .parent4 {
+        display: block;
+        text-align: center;
+        padding: 20px;
+        line-height: 100px;
+    }
+
+    .parent5 {
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    button {
+        margin: 20px;
+    }
+
+    .supercharge {
+        padding: 0.5em;
+    }
+
+}
